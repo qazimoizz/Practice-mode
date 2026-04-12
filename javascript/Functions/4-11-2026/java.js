@@ -50,7 +50,7 @@
 
 // console.log(sum)
 
-let num = 123;
+// let num = 123;
 // let reverse = 0;
 
 // while(num>0){
@@ -61,4 +61,6 @@ let num = 123;
 // console.log(reverse) 
 // console.log()
 
-console.log(num.toString().split("").reverse().join().number(num))
+// console.log(num.toString().split("").reverse().join())
+
+
