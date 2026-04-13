@@ -7,4 +7,10 @@
     // divs[0].innerText = "apna college"; 
     // divs[1].innerText = "uniquw text";
 
+// let para = document.getElementById("paraid")
+// console.log(para.firstChild.nodeType)
 
+
+let main = document.getElementById("main").children;
+
+console.log(main)
