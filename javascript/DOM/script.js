@@ -45,11 +45,48 @@
 // Changed();
 
 
-function Changing(){
+// function Changing(){
 
-    let div = document.querySelector(".box");
-div.style.backgroundColor = "red";
-div.style.width = "200px";
+//     let div = document.querySelector(".box");
+// div.style.backgroundColor = "red";
+// div.style.width = "200px";
+ 
+// }
+// Changing()
 
-}
-Changing()
+// function myFunc(){
+
+//     for (let i = 1; i <=10; i++){
+
+//         console.log(i)
+//     }
+// }
+// myFunc()
+
+
+// function myFunc(){
+//     let n = prompt("Enter a number");
+//     if(n % 2 === 0){
+//         console.log("Even")
+//     } else{
+//         console.log("odd")
+//     }
+// }
+// myFunc()
+
+// let para = document.querySelectorAll(".text");
+// para[0].innerHTML = "hi";
+// para[1].innerHTML = "bye";
+
+function myFunc(){
+
+    let paras = document.querySelectorAll(".num");
+
+    for(let i=0; i <     paras.length; i++ ){
+
+        let num = Number(paras[i].innerText);
+        paras[i].innerText = num * num;
+
+    }
+  }
+    myFunc();
