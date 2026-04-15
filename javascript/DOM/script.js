@@ -78,15 +78,19 @@
 // para[0].innerHTML = "hi";
 // para[1].innerHTML = "bye";
 
-function myFunc(){
+// function myFunc(){
 
-    let paras = document.querySelectorAll(".num");
+//     let paras = document.querySelectorAll(".num");
 
-    for(let i=0; i <     paras.length; i++ ){
+//     for(let i=0; i <     paras.length; i++ ){
 
-        let num = Number(paras[i].innerText);
-        paras[i].innerText = num * num;
+//         let num = Number(paras[i].innerText);
+//         paras[i].innerText = num * num;
 
-    }
-  }
-    myFunc();
+//     }
+//   }
+//     myFunc();
+
+
+
+
