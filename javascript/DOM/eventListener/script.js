@@ -45,13 +45,35 @@
 // });
 
 
-let on = document.querySelector(".on");
+// let on = document.querySelector(".on");
 
-const onBtn =  ()=>{
-    on.textContent = "OFF";
-    // on.textContent = "ON";
+// const onBtn =  ()=>{
+//     on.textContent = "OFF";
+    
 
+// }
+// // removeEventListener
+
+// on.addEventListener("click",onBtn)
+
+const n = "qazi moiz"
+const c = "bs-cs"
+const myfunc = (name, course)=>{
+return {name, course};
 }
-// removeEventListener
+console.log(myfunc(n,c));
 
-on.addEventListener("click",onBtn)
+
+
+// let obj = {
+//     [ n + "name" ] :"qazi moiz",
+//     course : "bs-cs",
+//     ' show detail'(){
+//         return `${this.studentname} is a student of ${this.course}`
+//     }
+
+// }
+
+// console.log(obj);
+// console.log(obj[' show detail']());
+
