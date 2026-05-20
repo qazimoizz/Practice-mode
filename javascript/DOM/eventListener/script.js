@@ -57,7 +57,7 @@
 // on.addEventListener("click",onBtn)
 
 const n = "qazi moiz"
-const c = "bs-cs"
+const c = "bachelor of computer science"
 const myfunc = (name, course)=>{
 return {name, course};
 }
